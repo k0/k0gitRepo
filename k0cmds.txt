@@ -6,4 +6,6 @@ git status
 git diff
 git remote add origin https://k0@github.com/k0/k0gitRepo.git
 git push -u origin master
+..new lines
+git commit -a -m "2nd"  #k0 -a needed elsewhere git wont commit changed files
 
