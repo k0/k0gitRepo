@@ -1,2 +1,9 @@
 git init
 git status
+git add k0cmds.txt 
+..new line
+git status
+git diff
+git remote add origin https://k0@github.com/k0/k0gitRepo.git
+git push -u origin master
+
