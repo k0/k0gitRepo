@@ -7,5 +7,27 @@ git diff
 git remote add origin https://k0@github.com/k0/k0gitRepo.git
 git push -u origin master
 ..new lines
-git commit -a -m "2nd"  #k0 -a needed elsewhere git wont commit changed files
+git commit -a -m "2nd"  #k0 -a needed elsewhere git wont commit changed files   
+#commit write from staging area to local copy
+git push -u origin master
+#push write to remote
+
+#k0 fork (it creates folder...so u must be uplevel)
+git clone https://k0@github.com/k0/patchwork.git
+cd patchwork/
+git branch -a
+git diff
+git status
+git info
+git remote
+git remote -v
+..add lines to readme
+diff readme.md 
+git commit -a -m "k0"
+git push -u origin gh-pages #write to remote
+#add original remote
+git remote add upstream https://github.com/jlord/patchwork.git
+
+
+
 
