@@ -29,5 +29,17 @@ git push -u origin gh-pages #write to remote
 git remote add upstream https://github.com/jlord/patchwork.git
 
 
+#back to k0gitRepo
+#create branch
+git branch k0branch
+git branch -v
+  k0branch 9c1568a 2nd
+* master   9c1568a 2nd
+#activate branch
+git checkout k0branch
+touch k0newFileNewBranch.txt
+git status
+
+
 
 
